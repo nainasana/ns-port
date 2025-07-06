@@ -58,12 +58,12 @@ const ProjectCards = (props: any) => {
             </Button>
           )}
           <span>&nbsp; &nbsp;</span>
-          {props.repoLink && (
+          {/* {props.repoLink && (
             <Button variant="primary" href={props.repoLink} target="_blank">
               <BiLinkExternal /> &nbsp;
               {"GitHub Repository"}
             </Button>
-          )}
+          )} */}
         </Card.Body>
       </Card>
 
