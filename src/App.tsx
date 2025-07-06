@@ -37,7 +37,7 @@ function App() {
           <Route path="/port-bk" element={<Home profileData={profileData} />} />
           <Route path="/project" element={<Projects projectData={projectData}/>} />
           <Route path="/about" element={<About  profileData={profileData}/>} />
-          <Route path="/resume" element={<Resume profileData={profileData}/>} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
         <Footer profileData={profileData}/>
       </div>

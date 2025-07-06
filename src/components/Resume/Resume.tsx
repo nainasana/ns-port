@@ -1,12 +1,10 @@
 import { Col, Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
-import { Link } from "react-router-dom";
 import { CV_URL } from "../../utils/constants";
 import ResumeContent from "./ResumeContent";
 
-const Resume = (props: any) => {
-  const { profileData } = props;
+const Resume = () => {
  
 
   return (

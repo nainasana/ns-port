@@ -1,6 +1,5 @@
 import { Col, Row } from "react-bootstrap";
 import {
-  DiDjango,
   DiGit,
   DiHtml5,
   DiJavascript1,
@@ -13,9 +12,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import {
   SiAntdesign,
   SiExpress,
-  SiFastapi,
   SiFirebase,
-  SiFlask,
   SiMongodb,
   SiRedux,
   SiTypescript,
