@@ -1,9 +1,8 @@
 {
-  "name": "port-bk-v1",
+  "name": "port-ns-v1",
   "private": true,
   "version": "0.1.1",
   "type": "module",
-  "homepage": "http://BittuKumar726.github.io/port-bk",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

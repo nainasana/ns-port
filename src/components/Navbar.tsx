@@ -59,7 +59,7 @@ const NavBar = () => {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/port-bk"
+                to="/port-ns"
                 onClick={() => setExpand(false)}
               >
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home

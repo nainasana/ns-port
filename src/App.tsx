@@ -34,7 +34,7 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home profileData={profileData} />} />
-          <Route path="/port-bk" element={<Home profileData={profileData} />} />
+          <Route path="/port-ns" element={<Home profileData={profileData} />} />
           <Route path="/project" element={<Projects projectData={projectData}/>} />
           <Route path="/about" element={<About  profileData={profileData}/>} />
           <Route path="/resume" element={<Resume />} />
