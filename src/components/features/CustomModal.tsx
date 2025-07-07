@@ -32,13 +32,13 @@ const CustomModal = (props: any) => {
                 {"Live Demo"}
               </Button>
             )}
-            <span>&nbsp; &nbsp;</span>
+{/*             <span>&nbsp; &nbsp;</span>
             {props.repoLink && (
               <Button variant="primary" href={props.repoLink} target="_blank">
                 <BiLinkExternal /> &nbsp;
                 {"GitHub Repository"}
               </Button>
-            )}
+            )} */}
           </Card.Body>
         </Modal.Body>
         {/* <Modal.Footer>
