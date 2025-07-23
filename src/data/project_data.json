@@ -38,6 +38,24 @@
             "demoUrl": "https://bkumarstore.netlify.app/",
             "startDate": "",
             "endDate": ""
+        },
+        {
+            "title": "Angular Notes Application",
+            "cardImgUrl": "https://res.cloudinary.com/drjvtmpra/image/upload/v1753262574/crop-hands-recording-information-from-smartphone_yjnpo3.jpg",
+            "description": "<span><strong style='font-size: 1.5em; margin-bottom:1em;'>Project Overview</strong></span> <p>Built a full-featured Notes application using Angular with Firebase as the backend. The app allows users to register, log in, and manage their personal notes securely. It features a modern and responsive UI with full authentication and real-time data synchronization.</p> <h2 id='technologies-used'>Technologies Used</h2> <ul> <li><p><strong>Frontend</strong>: Angular, TypeScript, Tailwind CSS, HTML</p></li> <li><p><strong>Backend</strong>: Firebase Authentication & Firestore Database</p></li> <li><p><strong>Authentication</strong>: Firebase Auth for secure Login/Signup, session management, and Logout</p></li> <li><p><strong>Version Control</strong>: Git, GitHub</p></li> </ul> <h2 id='key-features'>Key Features</h2> <ul> <li><p><strong>User Authentication</strong>: Secure registration, login, and logout using Firebase Auth.</p></li> <li><p><strong>Notes CRUD</strong>: Create, Read, Update, and Delete notes functionality.</p></li> <li><p><strong>Firestore Integration</strong>: All notes are stored and fetched from Firebase Firestore.</p></li> <li><p><strong>Multiple Notes Handling</strong>: Users can manage multiple notes with titles and content fields.</p></li> <li><p><strong>Real-time Updates</strong>: Changes to notes reflect instantly due to Firestore’s real-time capabilities.</p></li> <li><p><strong>Responsive UI</strong>: Works smoothly across mobile, tablet, and desktop devices.</p></li> </ul> <h2 id='challenges-and-solutions'>Challenges and Solutions</h2> <ul> <li><p><strong>Authentication Flow</strong>: Handled user session persistence and auth guards to protect routes.</p></li> <li><p><strong>Data Management</strong>: Implemented Firestore collections and real-time syncing efficiently.</p></li> <li><p><strong>UX/UI</strong>: Used Tailwind CSS for a clean, modern user interface.</p></li> </ul>",
+            "repoUrl": "",
+            "demoUrl": "https://angulat-nots-app.netlify.app/",
+            "startDate": "",
+            "endDate": ""
+        },
+        {
+            "title": "Restro Andhra - Restaurant Website",
+            "cardImgUrl": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1200&q=80",
+            "description": "<span><strong style='font-size: 1.5em; margin-bottom:1em;'>Project Overview</strong></span> <p>Developed a fully responsive restaurant website for an Andhra Pradesh-based dining brand. The website features a sleek UI, mobile-first layout, and dynamic table reservation system. Built with core frontend technologies and PHP backend for real-time form processing and communication.</p> <h2 id='technologies-used'>Technologies Used</h2> <ul> <li><p><strong>Frontend</strong>: HTML, CSS, JavaScript</p></li> <li><p><strong>Backend</strong>: PHP</p></li> <li><p><strong>Responsive Design</strong>: Mobile-friendly, works on all screen sizes</p></li> </ul> <h2 id='key-features'>Key Features</h2> <ul> <li><p><strong>Online Table Reservation</strong>: Users can reserve a table via an interactive form that sends data to the server.</p></li> <li><p><strong>Modern Design</strong>: Clean, visually appealing layout with focus on food imagery and user experience.</p></li> <li><p><strong>Fast Performance</strong>: Lightweight code and optimized assets for quick load times.</p></li> <li><p><strong>Responsive Layout</strong>: Fully functional on mobile, tablet, and desktop devices.</p></li> </ul>",
+            "repoUrl": "",
+            "demoUrl": "https://www.andhradining.com",
+            "startDate": "",
+            "endDate": ""
         }
     ]
 }
