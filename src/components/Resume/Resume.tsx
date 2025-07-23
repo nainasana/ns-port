@@ -99,7 +99,7 @@ const Resume = () => {
             <ResumeContent
               title="Technical Skills"
               content={[
-                "ReactJS, NodeJS, JavaScript, TypeScript, NextJS, Express, HTML, Redux, CSS",
+                "ReactJS, NodeJS, JavaScript, TypeScript, NextJS, Angular, Express, HTML, Redux, CSS",
                 "Tailwind CSS, MongoDB, Firebase, Git, ES6+, GitHub API Integration, Python",
                 "Webpack, Typography, React Native, Responsive Web, NPM, YARN, Build Tools"
               ]}
