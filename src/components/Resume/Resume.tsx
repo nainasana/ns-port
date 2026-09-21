@@ -21,17 +21,33 @@ const Resume = () => {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <ResumeContent
-              title="Associate Software Development Engineer - ( Futuristic Labs )"
-              date="June 2024 - Present"
+              title="Software Engineer I - ( Phigital Care )"
+              date="September 2025 - Present"
               isProject={true}
               content={[
                 {
-                  projectName: "Automated Kitchen Appliances Project",
+                  projectName: "Trilogy SmartNotes Platform",
                   desc: [
-                    "Developed a responsive user interface for automated kitchen appliances using React.js, Node.js, Material UI, MongoDB, and Firebase, delivering an intuitive and engaging user experience through innovative design",
+                    "Owned full-stack engineering across company projects, taking responsibility for architecture, backend services, databases, integrations, testing, debugging, and production delivery using Python, FastAPI, TypeScript, Next.js, React, REST APIs, MSSQL (SQL Server), PostgreSQL, Cosmos DB, Redis, Docker, and Azure",
+                    "Engineered the Trilogy SmartNotes platform, implementing Entra ID (Azure AD)/MSAL SSO with OAuth token refresh, AI-powered workflows, analytics, activity tracking, and hybrid RSA-OAEP + AES-256-GCM payload encryption, while maintaining ~2.5s average AI response times in production",
+                    "Built AI-assisted development and automation workflows integrating Jira, MCP, AI orchestration, automated PR generation and review, CI/CD, and deployment, enabling structured feature development, bug fixes, and code-quality checks",
+                    "Recognized with a Certificate of Appreciation for outstanding contribution and UI innovation in the Smart Notes project",
+                  ],
+                },
+              ]}
+            />
+            <ResumeContent
+              title="Associate Software Development Engineer - ( Futuristic Labs )"
+              date="June 2024 - July 2025"
+              isProject={true}
+              content={[
+                {
+                  projectName: "Klynk Smart Cooking App & Automated Kitchen Appliances",
+                  desc: [
+                    "Built the cross-platform mobile app for Klynk smart cooking using React Native, letting users browse chef-curated recipes, customize and create their own, plan meals, and cook step by step through the connected Semi induction cooktop and Riku rice and curry maker",
+                    "Developed the responsive web application for automated kitchen appliances using React.js, Node.js, Material UI, MongoDB, and Firebase, delivering an intuitive, guided cooking experience across devices",
                     "Increased automation capabilities by 30% by integrating IoT devices into embedded kitchen appliance systems",
                     "Ensured seamless integration between software and hardware to enhance appliance functionality and user experience",
-                    "Encouraged a culture of experimentation and cross-functional collaboration, resulting in faster iteration cycles and improved product design",
                   ],
                 },
               ]}
@@ -94,14 +110,23 @@ const Resume = () => {
               content={[]}
               link="https://drive.google.com/file/d/1i4T_5EOsfQqdkXzJoceq1Z8PH8xDmoVm/view"
             />
+            <ResumeContent
+              title="Azure Data Fundamentals ( Microsoft )"
+              date=""
+              content={[]}
+              link="https://drive.google.com/file/d/1DbWRLwxNRIMjIPjDmeSH0hrhb2JATfN1/view"
+            />
 
             <h3 className="resume-title">SKILLS</h3>
             <ResumeContent
               title="Technical Skills"
               content={[
-                "ReactJS, NodeJS, JavaScript, TypeScript, NextJS, Angular, Express, HTML, Redux, CSS",
-                "Tailwind CSS, MongoDB, Firebase, Git, ES6+, GitHub API Integration, Python",
-                "Webpack, Typography, React Native, Responsive Web, NPM, YARN, Build Tools"
+                "Python, FastAPI, TypeScript, JavaScript (ES6+), SQL, Node.js, Express, REST APIs, GraphQL",
+                "React, Next.js, Angular, Redux, Zustand, Tailwind CSS, Material UI, HTML, CSS, Responsive Web",
+                "React Native, Cross-Platform Mobile, IoT Device Integration, Embedded Systems",
+                "MSSQL (SQL Server), PostgreSQL, Azure Cosmos DB, MongoDB, Redis, Firebase",
+                "Azure, Docker, CI/CD, GitHub Actions, Git, Webpack, NPM, YARN, Build Tools",
+                "Entra ID (Azure AD), MSAL, SSO, OAuth, RSA/AES Encryption, Pytest, Unit Testing"
               ]}
             />
 
