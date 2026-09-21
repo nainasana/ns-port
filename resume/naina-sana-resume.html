@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Naina Sana, Software Engineer</title>
+<style>
+  /* Tuned to fill exactly one A4 page. If a line wraps after an edit and
+     pushes to page 2, drop --gap by 1px rather than shrinking the font. */
+  :root {
+    --ink: #1a1a1a;
+    --muted: #5c5c5c;
+    --rule: #d4d4d4;
+    --gap: 5px;
+  }
+
+  @page { size: A4; margin: 9mm 12mm; }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+    font-size: 9.4pt;
+    line-height: 1.28;
+    color: var(--ink);
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  a { color: var(--ink); text-decoration: underline; text-underline-offset: 1.5px; }
+
+  /* ---- header ---- */
+  h1 { font-size: 19.5pt; margin: 0; letter-spacing: -0.4px; font-weight: 700; }
+  .role { font-size: 11pt; color: var(--muted); margin: 0 0 2px; }
+  .contact { font-size: 9pt; color: var(--muted); }
+  .contact a { color: var(--muted); }
+  .contact span + span::before { content: "|"; margin: 0 6px; color: var(--rule); }
+
+  /* ---- sections ---- */
+  h2 {
+    font-size: 8.4pt; letter-spacing: 1.2px; text-transform: uppercase;
+    color: var(--muted); font-weight: 700;
+    margin: calc(var(--gap) + 3px) 0 2px;
+    padding-bottom: 2px; border-bottom: 1px solid var(--rule);
+  }
+
+  p.summary { margin: 0; text-align: justify; }
+
+  /* ---- experience ---- */
+  .job { margin-top: var(--gap); }
+  .job:first-of-type { margin-top: 2px; }
+  .job-head { display: flex; justify-content: space-between; align-items: baseline; }
+  .job-title { font-size: 10.4pt; font-weight: 600; }
+  .job-sub { display: flex; justify-content: space-between; align-items: baseline;
+             color: var(--muted); font-size: 9.2pt; margin-top: 0px; }
+  .where, .when { font-size: 8.8pt; color: var(--muted); white-space: nowrap; }
+
+  ul { margin: 2px 0 0; padding-left: 14px; }
+  li { margin-bottom: 2px; }
+  li::marker { color: var(--muted); }
+
+  /* ---- skills ---- */
+  .skills { margin-top: 3px; }
+  .skill-row { display: flex; gap: 8px; margin-bottom: 2.5px; }
+  .skill-label { flex: 0 0 112px; font-weight: 700; }
+
+  /* ---- certifications + education ---- */
+  .certs { display: grid; grid-template-columns: 1fr 1fr; gap: 3px 24px; margin-top: 3px; }
+  .cert-name { font-weight: 600; }
+  .cert-org { color: var(--muted); font-size: 9pt; }
+
+  .edu { display: flex; justify-content: space-between; align-items: baseline; margin-top: 3px; }
+  .edu-school { color: var(--muted); font-size: 9.2pt; }
+
+  strong { font-weight: 600; }
+</style>
+</head>
+<body>
+
+  <h1>Naina Sana</h1>
+  <div class="role">Full Stack Software Engineer</div>
+  <div class="contact">
+    <span>+91 8501031434</span>
+    <span><a href="mailto:nainasana1987@gmail.com">nainasana1987@gmail.com</a></span>
+    <span><a href="https://linkedin.com/in/nainasana-shaik">LinkedIn</a></span>
+    <span><a href="https://github.com/nainasana">GitHub</a></span>
+    <span><a href="https://nsport.netlify.app/port-ns">Portfolio</a></span>
+    <span>India</span>
+  </div>
+
+  <h2>Summary</h2>
+  <p class="summary">
+    Full Stack Software Engineer with over two years of experience building and shipping production web and
+    mobile applications end to end, from API and database design through to release. Experienced across
+    Python/FastAPI backends, React and Next.js frontends, and React Native mobile apps, with hands-on work in
+    secure authentication, AI-powered workflows, IoT integration, and cloud deployment on Azure. Focused on
+    clean, maintainable code, measurable reliability, and close collaboration with cross-functional teams.
+  </p>
+
+  <h2>Experience</h2>
+
+  <div class="job">
+    <div class="job-head">
+      <span class="job-title">Software Engineer I</span>
+      <span class="where">Remote</span>
+    </div>
+    <div class="job-sub">
+      <span>Phigital Care</span>
+      <span class="when">09/2025 - Present</span>
+    </div>
+    <ul>
+      <li>Owned full-stack engineering across company projects, taking responsibility for architecture,
+        backend services, databases, integrations, testing, debugging, and production delivery using
+        <strong>Python, FastAPI, TypeScript, Next.js, React, REST APIs, MSSQL (SQL Server), PostgreSQL,
+        Cosmos DB, Redis, Docker, and Azure</strong>.</li>
+      <li>Engineered <strong>Trilogy SmartNotes</strong>, an <strong>AI-assisted clinical documentation
+        platform</strong> for behavioural health clinicians, implementing Entra ID (Azure AD)/MSAL SSO with
+        OAuth token refresh, AI-powered workflows, analytics, activity tracking, and hybrid RSA-OAEP +
+        AES-256-GCM payload encryption, while maintaining ~2.5s average AI response times in production.</li>
+      <li>Built AI-assisted development and automation workflows integrating Jira, MCP, AI orchestration,
+        automated PR generation and review, CI/CD, and deployment, enabling structured feature development,
+        bug fixes, and code-quality checks.</li>
+      <li>Recognized with a
+        <a href="https://drive.google.com/file/d/111UDAG_26Kp4s2xU7HcX-rjaJ80rlkOB/view"><strong>Certificate
+        of Appreciation</strong></a> for outstanding contribution and UI innovation in the Smart Notes project.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <span class="job-title">Associate Software Development Engineer</span>
+      <span class="where">Hyderabad</span>
+    </div>
+    <div class="job-sub">
+      <span>Futuristic Labs</span>
+      <span class="when">06/2024 - 07/2025</span>
+    </div>
+    <ul>
+      <li>Developed the <strong>responsive web application</strong> for <strong>automated kitchen
+        appliances</strong> using React.js, Node.js, Material UI, MongoDB, and Firebase, delivering an
+        intuitive, guided cooking experience across devices.</li>
+      <li>Built the <strong>cross-platform mobile app</strong> for <strong>Klynk</strong> smart cooking using
+        <strong>React Native</strong>, letting users browse chef-curated recipes, customize and create their
+        own, plan meals, and cook step by step through the connected <strong>Semi</strong> induction cooktop
+        and <strong>Riku</strong> rice and curry maker.</li>
+      <li>Integrated <strong>IoT devices</strong> with embedded systems, increasing automation capabilities by
+        30%, and ensured seamless integration between software and hardware to improve appliance
+        functionality.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <span class="job-title">MERN Stack Intern</span>
+      <span class="where">Remote</span>
+    </div>
+    <div class="job-sub">
+      <span>Xcrino Business Solutions Pvt Ltd</span>
+      <span class="when">01/2024 - 05/2024</span>
+    </div>
+    <ul>
+      <li>Built a high-performance <strong>MERN</strong> stack web app with Next.js for Server-Side Rendering
+        (SSR) to improve <strong>SEO</strong> and UX, with type safety in TypeScript and a responsive
+        Tailwind CSS UI.</li>
+      <li>Developed RESTful APIs, managed version control with Git, and resolved technical issues to meet
+        project deadlines.</li>
+    </ul>
+  </div>
+
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="skill-row"><span class="skill-label">Languages</span>
+      <span>Python, TypeScript, JavaScript (ES6+), SQL, HTML5, CSS3</span></div>
+    <div class="skill-row"><span class="skill-label">Backend</span>
+      <span>FastAPI, Node.js, Express.js, REST APIs, GraphQL, Pydantic, OAuth 2.0, JWT, Headless CMS (Strapi)</span></div>
+    <div class="skill-row"><span class="skill-label">Frontend</span>
+      <span>React, Next.js, Angular, Redux, Zustand, Tailwind CSS, Material UI, Ant Design, SASS,
+      Framer Motion, GSAP, Lottie, Responsive Design, SEO Optimization</span></div>
+    <div class="skill-row"><span class="skill-label">Mobile &amp; IoT</span>
+      <span>React Native, Cross-Platform Mobile Development, IoT Device Integration, Embedded Systems</span></div>
+    <div class="skill-row"><span class="skill-label">Databases</span>
+      <span>MSSQL (SQL Server), PostgreSQL, Azure Cosmos DB, MongoDB, Redis, Firebase</span></div>
+    <div class="skill-row"><span class="skill-label">Cloud &amp; DevOps</span>
+      <span>Azure, Docker, CI/CD, GitHub Actions, Git, Vercel, Netlify, Webpack, Babel</span></div>
+    <div class="skill-row"><span class="skill-label">Security</span>
+      <span>Entra ID (Azure AD), MSAL, SSO, OAuth, RSA/AES Encryption</span></div>
+    <div class="skill-row"><span class="skill-label">AI &amp; Automation</span>
+      <span>LLM Integration, Prompt Engineering, MCP, Jira Automation, AI-Assisted Development</span></div>
+    <div class="skill-row"><span class="skill-label">Testing</span>
+      <span>Pytest, Unit Testing, Code Reviews, Debugging, Postman, Swagger, Cross-Browser Compatibility</span></div>
+  </div>
+
+  <h2>Certifications</h2>
+  <div class="certs">
+    <div>
+      <div class="cert-name">Front End Development</div>
+      <div class="cert-org"><a href="https://drive.google.com/file/d/1i4T_5EOsfQqdkXzJoceq1Z8PH8xDmoVm/view">IBM SkillsBuild</a></div>
+    </div>
+    <div>
+      <div class="cert-name">Python Programming</div>
+      <div class="cert-org"><a href="https://drive.google.com/drive/folders/1XrkjYvAwb_swFfWE8ORPDAs5dg-or0oL">Grow with Google, Coursera, LetsUpgrade</a></div>
+    </div>
+    <div>
+      <div class="cert-name">Leadership</div>
+      <div class="cert-org"><a href="https://drive.google.com/drive/folders/1YVwbNou2-31KBc-5awETVPxy9pgVibw7">Design Thinking and Emotional Intelligence, Talentio</a></div>
+    </div>
+    <div>
+      <div class="cert-name">Azure Data Fundamentals</div>
+      <div class="cert-org"><a href="https://drive.google.com/file/d/1DbWRLwxNRIMjIPjDmeSH0hrhb2JATfN1/view">Microsoft</a></div>
+    </div>
+  </div>
+
+  <h2>Education</h2>
+  <div class="edu">
+    <div>
+      <div><strong>B.Tech, Electronics and Communication</strong></div>
+      <div class="edu-school">Vignan's Nirula Institute of Technology and Sciences for Women</div>
+    </div>
+    <div style="text-align:right">
+      <div class="when">Andhra Pradesh</div>
+      <div class="when">2020 - 2024</div>
+    </div>
+  </div>
+
+</body>
+</html>
