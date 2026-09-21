@@ -1,5 +1,4 @@
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../assets/naina-dev.png";
 import TypeWiter from "./Type";
 import Home2 from "./Home2";
 import { useEffect, useState } from "react";
@@ -18,9 +17,9 @@ const Home = (props: any) => {
     <section>
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
-          <Row style={{justifyContent: "center", alignItems: "center"}}>
-            <Col md={6} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+          <Row className="justify-content-center">
+            <Col md={10} className="home-header">
+              <h1 className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
@@ -31,13 +30,9 @@ const Home = (props: any) => {
                 <strong className="main-name"> NAINA SANA</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div className="home-type">
                 <TypeWiter roles={data?.roles} />
               </div>
-            </Col>
-
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              <img src={homeLogo} alt="home pic" className="img-fluid" />
             </Col>
           </Row>
         </Container>

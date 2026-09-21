@@ -11,9 +11,16 @@ import { FaJira } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import {
   SiAntdesign,
+  SiDocker,
   SiExpress,
+  SiFastapi,
   SiFirebase,
+  SiMicrosoftazure,
+  SiMicrosoftsqlserver,
   SiMongodb,
+  SiNextdotjs,
+  SiPostgresql,
+  SiRedis,
   SiRedux,
   SiTypescript,
 } from "react-icons/si";
@@ -26,11 +33,18 @@ const Techstack = () => {
       <Cols icon={<DiJavascript1 color="#ffff00" />} label="Javascript" />
       <Cols icon={<SiTypescript color="#0175c9" />} label="Typescript" />
       <Cols icon={<DiPython style={{ color: "#3776AB" }} />} label="Python" />
+      <Cols icon={<SiFastapi color="#05998b" />} label="FastAPI" />
       <Cols icon={<DiNodejs color="#83cd29" />} label="Node Js" />
       <Cols icon={<DiReact color="cyan" />} label="React" />
+      <Cols icon={<SiNextdotjs color="#ffffff" />} label="Next.js" />
       <Cols icon={<TbBrandReactNative color="cyan" />} label="React Native" />
+      <Cols icon={<SiMicrosoftsqlserver color="#cc2927" />} label="SQL Server" />
+      <Cols icon={<SiPostgresql color="#336791" />} label="PostgreSQL" />
       <Cols icon={<SiMongodb color="green" />} label="MongoDB" />
+      <Cols icon={<SiRedis color="#d82c20" />} label="Redis" />
       <Cols icon={<SiExpress color="#83cd33" />} label="Express Js" />
+      <Cols icon={<SiMicrosoftazure color="#0089d6" />} label="Azure" />
+      <Cols icon={<SiDocker color="#2496ed" />} label="Docker" />
       <Cols icon={<DiGit color="#e84d31" />} label="Git" />
       <Cols icon={<SiRedux color="#7248b6" />} label="Redux" />
       <Cols icon={<RiTailwindCssFill color="#19b3b6" />} label="Tailwind CSS" />

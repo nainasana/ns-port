@@ -11,7 +11,7 @@ const Home2 = (props: any) => {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row style={{justifyContent: "center", alignItems: "center"}}>
-          <Col md={8} className="home-about-description">
+          <Col md={7} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
@@ -19,20 +19,11 @@ const Home2 = (props: any) => {
               <MarkdownContent data={data?.intro} />
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img
-                src={myImg}
-                className="img-fluid"
-                style={{
-                  borderRadius: "20%",
-                  color: "#3a0202",
-                  filter: "opacity(0.8) drop-shadow(0 0 0)",
-                  width: "80%",
-                  height: "60%",
-                }}
-                alt="avatar"
-              />
+          <Col md={5} className="myAvtar">
+            <Tilt tiltMaxAngleX={8} tiltMaxAngleY={8} glareEnable={false}>
+              <div className="avatar-frame">
+                <img src={myImg} className="avatar-photo" alt="Naina Sana" />
+              </div>
             </Tilt>
           </Col>
         </Row>

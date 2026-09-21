@@ -1,5 +1,4 @@
 import { Container, Row, Col } from "react-bootstrap";
-import laptopImg from "../../assets/about.png";
 import AboutCard from "./AboutCard";
 import Techstack from "./Techstack";
 import Toolstack from "./Toolstack";
@@ -11,26 +10,12 @@ const About = (props: any) => {
     <Container fluid className="about-section">
       {/* <Particle /> */}
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
-          <Col
-            md={7}
-            style={{
-              justifyContent: "center",
-              paddingTop: "30px",
-              paddingBottom: "50px",
-            }}
-          >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+        <Row className="justify-content-center">
+          <Col md={9} className="about-intro">
+            <h1 className="about-heading">
               Know Who <strong className="purple">I'M</strong>
             </h1>
             <AboutCard data={profileData} />
-          </Col>
-          <Col
-            md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
-          >
-            <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
         <h1 className="project-heading">

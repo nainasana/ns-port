@@ -32,7 +32,7 @@
     },
     {
       "title": "Klynk - Smart Cooking App",
-      "cardImgUrl": "https://play-lh.googleusercontent.com/qZwGdhC0aEtQ7wVndw3lOX05h0_7ZCKdh3Ze0SCKRCipXquSvpxF-Tt69o3tIN3F8kKz02tSYub41C1Nm40B45Y=w600",
+      "cardImgUrl": "/klynk.png",
       "description": "Cross-platform mobile app built with React Native at Futuristic Labs. Users browse chef-curated recipes, customize and create their own, plan meals, and cook step by step through the connected Semi induction cooktop and Riku rice and curry maker.",
       "repoUrl": "",
       "demoUrl": "https://play.google.com/store/apps/details?id=com.futuristiclabs.kitchen",

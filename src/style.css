@@ -776,3 +776,128 @@ html {
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
+/* ─── Layout refresh: single photo, no stock illustrations ──────────────── */
+
+/* The hero is now a single centered column, so the old left padding that
+   offset it from the illustration would push it off-centre. */
+.home-header {
+  padding-top: 80px !important;
+  text-align: center;
+}
+
+.home-header .heading,
+.home-header .heading-name {
+  padding-left: 0 !important;
+  padding-bottom: 10px;
+}
+
+.home-type {
+  padding: 28px 0 10px;
+  min-height: 3.2em;           /* reserve the line so the typewriter cannot shift layout */
+  display: flex;
+  justify-content: center;
+}
+
+.home-type .Typewriter__wrapper {
+  text-align: center;
+}
+
+/* Photo: a soft frame instead of the washed-out 80%-opacity crop. Fixed
+   aspect ratio so the portrait is never squashed by percentage heights. */
+.avatar-frame {
+  width: 100%;
+  max-width: 330px;
+  margin: 0 auto;
+  padding: 8px;
+  border-radius: 24px;
+  background: linear-gradient(145deg, rgba(196, 160, 255, 0.55), rgba(4, 255, 227, 0.28));
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.45);
+}
+
+.avatar-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: top center;  /* keeps the face in frame when cropped */
+  border-radius: 18px;
+}
+
+.myAvtar {
+  padding-top: 3em !important;
+}
+
+@media (max-width: 767px) {
+  .myAvtar {
+    padding-top: 2em !important;
+  }
+  .avatar-frame {
+    max-width: 240px;
+  }
+}
+
+/* About: the text card now spans the row on its own. */
+.about-intro {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.about-heading {
+  font-size: 2.1em;
+  padding-bottom: 20px;
+}
+
+/* ─── Project grid: equal-height cards, uniform thumbnails ──────────────── */
+
+/* Bootstrap columns are equal height already; the card inside was not
+   stretching, which left the Live Demo buttons on ragged baselines. */
+.project-card {
+  display: flex !important;
+  padding: 24px 18px !important;
+}
+
+.project-card > div {
+  display: flex;
+  width: 100%;
+}
+
+.project-card-view {
+  display: flex !important;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 14px !important;
+  overflow: hidden;
+}
+
+.project-card-view .card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+/* Push the button to the bottom of every card regardless of copy length. */
+.project-card-view .card-text {
+  flex: 1 1 auto;
+}
+
+.project-card-view .btn {
+  align-self: center;
+  margin-top: 16px;
+}
+
+/* Thumbnails arrive at wildly different ratios (wide photos, a square app
+   icon), so lock one ratio and crop rather than letting each set the height. */
+.project-card-view .card-img-top {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: center;
+  padding: 0 !important;
+  opacity: 1 !important;
+  border-radius: 0 !important;
+}
+
+.project-card-view .card-title {
+  font-size: 1.25rem;
+  margin-top: 4px;
+}
