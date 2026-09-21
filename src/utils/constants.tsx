@@ -7,6 +7,9 @@ export const G_DEFAULT_ROLES = [
   "React Native Developer",
 ];
 
-export const CV_URL = `https://drive.google.com/file/d/${
-  import.meta.env.VITE_CV_ID
-}/view`;
+// The CV lives in Drive and its id comes from VITE_CV_ID on Netlify. Fall back
+// to the known id so a missing env var cannot silently render a link to
+// ".../file/d/undefined/view", which is what happens in a local build.
+const CV_FILE_ID = import.meta.env.VITE_CV_ID || "15cDF-PVzWS8kCdOILEUBkO9HmcIDIBd0";
+
+export const CV_URL = `https://drive.google.com/file/d/${CV_FILE_ID}/view`;

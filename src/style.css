@@ -967,3 +967,27 @@ html {
 /* Rounder photo frame, closer to the original 20% radius. */
 .avatar-frame { border-radius: 18% !important; }
 .avatar-photo { border-radius: 16% !important; }
+
+/* The hero sat at z-index:-1, which renders it behind the page background and
+   swallows every click. That was invisible while the section held only text;
+   it made the new call-to-action buttons unclickable. */
+.home-section {
+  z-index: auto !important;
+}
+
+.home-content,
+.home-header {
+  position: relative;
+  z-index: 1;
+}
+
+.home-cta .btn {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Slightly tighter than 18%: rounded, but still reads as a photo frame. */
+.avatar-frame { border-radius: 12% !important; }
+.avatar-photo { border-radius: 10% !important; }
