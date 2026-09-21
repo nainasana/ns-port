@@ -25,22 +25,21 @@ const AboutCard = (props: any) => {
             </span>
             . I am also extremely inclined towards spirituality and humanity. I
             have around <span className="purple">{data?.yoe}</span> of
-            experience as a software developer with expertise in developing web
-            applications using <span className="purple">ReactJs</span>,{" "}
-            <span className="purple">NodeJs</span>,{" "}
-            <span className="purple">Python</span>,{" "}
-            <span className="purple">React Native</span>,{" "}
-            <span className="purple">Firebase</span>,{" "}
-             and{" "}
-            <span className="purple">MongoDB</span>. I have a sound
-            understanding of <span className="purple">JavaScript</span>,{" "}
-            <span className="purple">HTML</span>,{" "}
-            <span className="purple">CSS3</span>,{" "}
-            <span className="purple">Redux/ReduxToolkit</span>,{" "}
-            <span className="purple">RESTful API</span>, and{" "}
-            <span className="purple">databases such as MongoDB and Firebase</span>. I am
-            proficient in version control using{" "}
-            <span className="purple">Git and Jira</span>.
+            experience as a full stack software engineer, building web and mobile
+            applications with <span className="purple">Python and FastAPI</span>,{" "}
+            <span className="purple">React and Next.js</span>,{" "}
+            <span className="purple">TypeScript</span>, and{" "}
+            <span className="purple">React Native</span>. I have hands-on
+            experience with <span className="purple">secure authentication</span>,{" "}
+            <span className="purple">AI-powered workflows</span>,{" "}
+            <span className="purple">IoT integration</span>, and cloud deployment
+            on <span className="purple">Azure</span>. I am comfortable designing
+            and optimizing{" "}
+            <span className="purple">
+              databases such as SQL Server, PostgreSQL, Cosmos DB and MongoDB
+            </span>
+            , and shipping through{" "}
+            <span className="purple">Docker, CI/CD, Git and Jira</span>.
           </p>
         </blockquote>
       </Card.Body>
