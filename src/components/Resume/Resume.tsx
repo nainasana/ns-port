@@ -44,8 +44,8 @@ const Resume = () => {
                 {
                   projectName: "Klynk Smart Cooking App & Automated Kitchen Appliances",
                   desc: [
-                    "Built the cross-platform mobile app for Klynk smart cooking using React Native, letting users browse chef-curated recipes, customize and create their own, plan meals, and cook step by step through the connected Semi induction cooktop and Riku rice and curry maker",
                     "Developed the responsive web application for automated kitchen appliances using React.js, Node.js, Material UI, MongoDB, and Firebase, delivering an intuitive, guided cooking experience across devices",
+                    "Built the cross-platform mobile app for Klynk smart cooking using React Native, letting users browse chef-curated recipes, customize and create their own, plan meals, and cook step by step through the connected Semi induction cooktop and Riku rice and curry maker",
                     "Increased automation capabilities by 30% by integrating IoT devices into embedded kitchen appliance systems",
                     "Ensured seamless integration between software and hardware to enhance appliance functionality and user experience",
                   ],
