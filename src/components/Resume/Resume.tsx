@@ -29,7 +29,7 @@ const Resume = () => {
                   projectName: "Trilogy SmartNotes Platform",
                   desc: [
                     "Owned full-stack engineering across company projects, taking responsibility for architecture, backend services, databases, integrations, testing, debugging, and production delivery using Python, FastAPI, TypeScript, Next.js, React, REST APIs, MSSQL (SQL Server), PostgreSQL, Cosmos DB, Redis, Docker, and Azure",
-                    "Engineered the Trilogy SmartNotes platform, implementing Entra ID (Azure AD)/MSAL SSO with OAuth token refresh, AI-powered workflows, analytics, activity tracking, and hybrid RSA-OAEP + AES-256-GCM payload encryption, while maintaining ~2.5s average AI response times in production",
+                    "Engineered Trilogy SmartNotes, an AI-assisted clinical documentation platform for behavioural health clinicians, implementing Entra ID (Azure AD)/MSAL SSO with OAuth token refresh, AI-powered workflows, analytics, activity tracking, and hybrid RSA-OAEP + AES-256-GCM payload encryption, while maintaining ~2.5s average AI response times in production",
                     "Built AI-assisted development and automation workflows integrating Jira, MCP, AI orchestration, automated PR generation and review, CI/CD, and deployment, enabling structured feature development, bug fixes, and code-quality checks",
                     "Recognized with a Certificate of Appreciation for outstanding contribution and UI innovation in the Smart Notes project",
                   ],
