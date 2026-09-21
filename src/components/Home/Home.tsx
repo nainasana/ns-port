@@ -1,4 +1,8 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Button, Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { AiOutlineDownload } from "react-icons/ai";
+import { BsArrowRight } from "react-icons/bs";
+import { CV_URL } from "../../utils/constants";
 import TypeWiter from "./Type";
 import Home2 from "./Home2";
 import { useEffect, useState } from "react";
@@ -32,6 +36,32 @@ const Home = (props: any) => {
 
               <div className="home-type">
                 <TypeWiter roles={data?.roles} />
+              </div>
+
+              <p className="home-tagline">
+                I build production web and mobile applications end to end, from
+                API and database design through to release, currently shipping
+                AI-powered clinical documentation at Phigital Care.
+              </p>
+
+              <div className="home-cta">
+                <Button as={Link as any} to="/project" className="cta-primary">
+                  See my work <BsArrowRight />
+                </Button>
+                <Button
+                  href={CV_URL}
+                  target="_blank"
+                  className="cta-secondary"
+                  variant="outline-light"
+                >
+                  <AiOutlineDownload /> Download CV
+                </Button>
+              </div>
+
+              <div className="home-stats">
+                <span><strong>2.8 yrs</strong> building software</span>
+                <span><strong>Web · Mobile · Backend</strong></span>
+                <span><strong>Python · React · Azure</strong></span>
               </div>
             </Col>
           </Row>

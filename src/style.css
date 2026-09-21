@@ -901,3 +901,69 @@ html {
   font-size: 1.25rem;
   margin-top: 4px;
 }
+
+/* ─── Hero: give a recruiter the pitch and a next click ─────────────────── */
+
+.home-tagline {
+  max-width: 640px;
+  margin: 6px auto 0;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #cfd6de;
+}
+
+.home-cta {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.home-cta .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 24px !important;
+  border-radius: 999px !important;
+  font-weight: 600;
+}
+
+.cta-primary {
+  background: linear-gradient(120deg, #7a4ccd, #2f8f8a) !important;
+  border: none !important;
+}
+
+.cta-secondary {
+  background: transparent !important;
+  border: 1px solid rgba(255, 255, 255, 0.45) !important;
+}
+
+.cta-secondary:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Three quick facts, so the value is legible before any scrolling happens. */
+.home-stats {
+  display: flex;
+  gap: 10px 34px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 34px;
+  font-size: 0.92rem;
+  color: #9fb0bd;
+}
+
+.home-stats strong {
+  color: #e8eef3;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .home-tagline { font-size: 0.98rem; }
+  .home-stats { gap: 6px 18px; font-size: 0.85rem; }
+}
+
+/* Rounder photo frame, closer to the original 20% radius. */
+.avatar-frame { border-radius: 18% !important; }
+.avatar-photo { border-radius: 16% !important; }
