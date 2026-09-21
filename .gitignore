@@ -23,3 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 *.env
+
+# Personal documents. Remove this line only once the repo is private:
+# the resume carries a phone number and email address.
+resume/
